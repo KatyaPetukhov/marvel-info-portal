@@ -9,10 +9,10 @@ const App = () => {
                 <main>
                     <Switch>
                         <Route exact path="/">
-
+                            <MainPage></MainPage>
                         </Route>
                         <Route exact path="/comics">
-
+                            <ComicsPage></ComicsPage>
                         </Route>
                     </Switch>
                 </main>
